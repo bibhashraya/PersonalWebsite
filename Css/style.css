@@ -22,7 +22,7 @@ nav{
     align-items: center;
     justify-content:space-between;
     
-
+    
 }
 nav ul{
     margin-top: 10%;
@@ -46,5 +46,8 @@ nav ul li a:hover{
     color: cyan;
 
 }
+/* .navigation{
+    
+} */
 
 
