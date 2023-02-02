@@ -11,7 +11,8 @@
 }
 .logo{
      width: 25%;
-     height: 25%;;
+     height: 25%;
+     
 }
 nav{
     display:flex;
@@ -20,7 +21,12 @@ nav{
     padding: 0% ;
     align-items: center;
     justify-content:space-between;
+    
 
+}
+nav ul{
+    margin-top: 10%;
+    margin-bottom: auto;
 }
 nav ul li{
     display: inline-block;
@@ -40,4 +46,5 @@ nav ul li a:hover{
     color: cyan;
 
 }
+
 
