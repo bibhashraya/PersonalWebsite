@@ -102,13 +102,15 @@ span{
     /* flex-direction: row; */
     justify-content:space-between;
     flex: 2 1 auto;
+    height: 100vh;
 }
 .me{
     border-radius: 40%;
     max-width: 100%;
-    height: 20%;
+    height: 55%;
     width: 20%;
     margin-right: 10%;
+    
 }
 .greet1 p{
     color:#e2e2df;
@@ -117,7 +119,22 @@ span{
     line-height: 25px;
     
 }
+.container2{
+    background-color: black;
+    max-width: auto;
+    margin: 0 auto;
+    margin-bottom: 0%;
+    height: 100vh;
+}
+.hob h3{
+    color:#a0a0a0;
+    font-weight: bold;
+    font-size: larger;
+}
+.hob{
+    margin-left: 10%;
 
+}
 
 
 
