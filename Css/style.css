@@ -3,11 +3,6 @@
     margin: 0%;
     font-family: sans-serif;
 }
-
-.container{
-    max-width: 1270px;
-    margin: 0 auto;
-}
 .logo{
      width: 25%;
      height: 25%;   
@@ -15,7 +10,6 @@
 img{
     max-width: 100%;
 }
-
 nav{
     display:flex;
     width:fit-content;
@@ -49,15 +43,45 @@ nav ul li a{
 nav ul li a:hover{
     width: 100%;
     color: #ffffff;
-
-
-
 }
 header{
     background-color: black;
 }
-/* .navigation{
-    
-} */
+.greet{
+    color: #a0a0a0;
+}
+.container{
+    height: auto;
+    background-color: black;
+    max-width: auto;
+    margin: 0 auto;
+}
+body{
+    background-color: black;
+}
+.greet{
+    margin-left: 25%;
+    margin-right: 15%;
+    margin-top: 56px;
+
+}
+.greet h1{
+    font-weight: bold;
+    /* text-decoration: underline 2px;
+    text-underline-offset: 6px; */
+    margin-bottom: 10px;
+    font-size: 60px;
+
+}
+span{
+    color:#e2e2df;
+    font-style: italic;
+}
+.greet p{
+    line-height: 26px;
+    color: #e2e2df;
+}
+
+
 
 
