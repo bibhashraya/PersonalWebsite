@@ -124,16 +124,27 @@ span{
     max-width: auto;
     margin: 0 auto;
     margin-bottom: 0%;
-    height: 100vh;
+    height:max-content;
 }
 .hob h3{
     color:#a0a0a0;
     font-weight: bold;
-    font-size: larger;
+    font-size: 26px;
 }
 .hob{
     margin-left: 10%;
 
+}
+.list{
+    color:#a0a0a0;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+
+}
+.list ul li:hover{
+    width: 100%;
+    color: #ffffff;
 }
 
 
