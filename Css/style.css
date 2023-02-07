@@ -7,9 +7,6 @@
      width: 25%;
      height: 25%;   
 }
-img{
-    max-width: 100%;
-}
 nav{
     display:flex;
     width:fit-content;
@@ -46,24 +43,28 @@ nav ul li a:hover{
 }
 header{
     background-color: black;
+    
+
 }
-.greet{
-    color: #a0a0a0;
-}
+
 .container{
-    height: auto;
     background-color: black;
     max-width: auto;
     margin: 0 auto;
+    margin-bottom: 0%;
+    height: 60vh;
+ 
 }
-body{
+.container{
     background-color: black;
+    margin-top: 0%;
 }
 .greet{
+    color: #a0a0a0;
     margin-left: 25%;
     margin-right: 15%;
-    margin-top: 56px;
 
+   
 }
 .greet h1{
     font-weight: bold;
@@ -71,6 +72,7 @@ body{
     text-underline-offset: 6px; */
     margin-bottom: 10px;
     font-size: 60px;
+    margin-top: 0%;
 
 }
 span{
@@ -81,6 +83,43 @@ span{
     line-height: 26px;
     color: #e2e2df;
 }
+.container h2{
+    font-weight: bold;
+    color:#ffffff; 
+}
+
+#AM{
+    background-color: black;
+}
+
+.greet1 {
+    color: #a0a0a0;
+    width: 50%;
+    margin-left: 10%;
+}
+#AM .container1{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:space-between;
+    flex: 2 1 auto;
+}
+.me{
+    border-radius: 40%;
+    max-width: 100%;
+    height: 20%;
+    width: 20%;
+    margin-right: 10%;
+}
+.greet1 p{
+    color:#e2e2df;
+    font-size: medium;
+    letter-spacing: 1px;
+    line-height: 25px;
+    
+}
+
+
+
 
 
 
