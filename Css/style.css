@@ -3,17 +3,19 @@
     margin: 0%;
     font-family: sans-serif;
 }
+
 .container{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background: black;
+    max-width: 1270px;
+    margin: 0 auto;
 }
 .logo{
      width: 25%;
-     height: 25%;
-     
+     height: 25%;   
 }
+img{
+    max-width: 100%;
+}
+
 nav{
     display:flex;
     width:fit-content;
@@ -21,8 +23,10 @@ nav{
     padding: 0% ;
     align-items: center;
     justify-content:space-between;
-    
-    
+    background-color: black;  
+}
+nav .logo{
+    align-items: left;
 }
 nav ul{
     margin-top: 10%;
@@ -37,14 +41,20 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: aliceblue;
+    color: #a0a0a0;
     font-weight:bold;
+    font-size: 18px;
+    letter-spacing:0.5px;
+}
+nav ul li a:hover{
+    width: 100%;
+    color: #ffffff;
+
 
 
 }
-nav ul li a:hover{
-    color: cyan;
-
+header{
+    background-color: black;
 }
 /* .navigation{
     
