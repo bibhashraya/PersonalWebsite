@@ -146,6 +146,57 @@ span{
     width: 100%;
     color: #ffffff;
 }
+#Gallery .info h3{
+    color: #a0a0a0;
+    font-weight: bold;
+    font-size: 26px;
+} 
+#Gallery {
+    background-color: black;
+    padding: 10%;
+    max-width: 100%;
+    height:max-content;
+}
+.info p{
+    color: #e2e2df;
+    line-height: 28px;
+    text-align: justify;
+    font-size: 18px;
+    word-spacing: 3px;
+
+}
+.pictures1 *{
+    max-width: 100%;
+    width: 300px;
+    height: 400px;
+    max-height: 100%;
+
+    
+
+}
+.pictures1{
+    margin-top: 100px;
+    /* display:flex; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    
+    
+}
+#Contact{
+    color: #a0a0a0;
+    background-color: black;
+    max-height:fit-content;
+}
+.lower{
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 2;
+    padding: 8px ;
+
+}
+
+
 
 
 
