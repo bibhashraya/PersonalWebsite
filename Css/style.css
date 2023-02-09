@@ -280,11 +280,48 @@ button:hover{
 }
 @media screen and (max-width: 540px) {
     .greet h1 {
-        font-size: 35px;
+        font-size: 28px;
     }
+    .greet p {
+        line-height: 20px;
+    }
+    .container{
+        padding-top: 25px;
+    }
+    .container4{
+        margin: 0 auto;
+    }
+    .container4 p{
+        text-align: center;
+        font-size: 14px;
+    }
+    button{
+        margin-left: 150px;
+    }
+    .container4 ul {text-align: justify;margin-left: 100px;font-size: 13px;}
 
-
+    .greet1 h1 {
+        font-size: 25px;
+    }
+    .greet1 p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    img.me {
+        margin-top: 20px;
+        /* height: 31px; */
+        /* width: 20px; */
+    }
 }
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1199px) {
 
