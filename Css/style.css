@@ -312,16 +312,33 @@ button:hover{
         /* height: 31px; */
         /* width: 20px; */
     }
+    .hob {
+        margin-top: 167px;
+    }
+    .greet1 h2 {
+        font-size: 25px;
+    }
+    .hob h3{
+        font-size: 20px;
+    }
+    .list ul{
+        font-size: 12px;
+        line-height: normal;
+    }
+    .info h3{
+        font-size: 14px;
+    }
+    .info p{
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        line-height: 15px;
+    }
+    .pictures1 {
+        grid-template-columns: repeat(auto-fit, minmax(154px, 1fr));
+        display: grid;
+    }
+
 }
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 1199px) {
 
